@@ -1,0 +1,52 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="overlay">
+            <div id="store">
+                <h2>What are you buying?</h2>
+                <p id="gold"></p>
+                    
+                    <button class="shop" id="sword">Iron Sword: 100 Gold<br>Deal more damage to the enemy</button>
+                    <button class="shop" id="armor">Leather Armor: 100 Gold<br>Take less damage from the enemy</button>
+                    <button class="shop" id="hp">Health Booster: 100 Gold<br>Adds 50 hp to your health pool</button>
+                
+                <button id="close-shop">Back to the Arena</button>
+            </div>
+        </div>
+        <div>
+            <h1>Gladiator Rumble</h1>
+        </div>
+        <div class="container">
+            <h2 id="message">Enter the Arena at your own peril...</h2>
+            <div class="players" id="allPlayers">
+                <div id="player1">
+                    <h2>Your Hitpoints: 
+                        <span id="player1Scoreboard">50</span>
+                    </h2>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h2>Enemy Hitpoints: 
+                        <span id="player2Scoreboard">100</span>
+                    </h2>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <div class="levels">
+                <button id="level1">Level 1</button>
+                <button id="level2">Level 2</button>
+                <button id="level3">Level 3</button>
+            </div>
+            <button id="selectLevel">Begin</button>
+            <button id="startBtn">Start Game</button>
+            <button id="rollBtn">Next Turn</button>
+            <button id="resetBtn">Fight Again</button>
+            <button id="shop">Visit Shop</button>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
