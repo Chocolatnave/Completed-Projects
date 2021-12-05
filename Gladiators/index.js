@@ -91,7 +91,7 @@ function pSword() {
 
 function pHP() {
     if (playerHP) {
-        player1Score += 50
+        player1Score = 100
         player1Scoreboard.textContent = player1Score
     }
 }
