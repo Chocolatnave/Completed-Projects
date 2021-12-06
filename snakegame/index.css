@@ -1,0 +1,38 @@
+body {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#grid {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color:tan
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: blue;
+}
+
+.snakehead {
+    background-color: gold;
+}
